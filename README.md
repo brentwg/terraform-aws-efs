@@ -17,7 +17,7 @@ security_groups: List of security groups that can access EFS
 ## Example Usage  
 ```
 module "efs" {
-  source = "../modules/efs"
+  source = "../<path-to>/terraform-aws-efs"
 
   customer_name         = "MY-CUSTOMER_NAME"
   environment           = "MY-ENVIRONMENT"
