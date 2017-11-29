@@ -2,7 +2,7 @@
 # Module Outputs
 # --------------
 output "efs_filesystem_id" {
-  value = ["${aws_efs_file_system.this.id}"]
+  value = "${aws_efs_file_system.this.id}"
 }
 
 output "efs_mount_target_id" {
